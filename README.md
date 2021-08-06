@@ -3,8 +3,12 @@ This is a rudimentary site that's main purpose is to serve as a project for my s
 
 ## **PREREQUISITES** 
 [.net](https://dotnet.microsoft.com/download)
+
 [visual studio](https://visualstudio.microsoft.com/)
-You will also need the following extensions for visual studio: **ASP.NET** **WEB DEV WORKLOAD**
+
+You will also need the following extensions for visual studio:
+
+**ASP.NET** **WEB DEV WORKLOAD**
 
 ### **HELPFUL TOOLS**
 [ASP.NET mvc](https://dotnet.microsoft.com/apps/aspnet/mvc)
