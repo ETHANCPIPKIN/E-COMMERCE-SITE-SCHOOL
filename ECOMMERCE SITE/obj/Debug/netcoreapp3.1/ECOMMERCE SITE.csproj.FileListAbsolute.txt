@@ -351,3 +351,4 @@ C:\Users\ethan\Desktop\ECOMMERCE SITE SCHOOl\ECOMMERCE SITE\obj\Debug\netcoreapp
 C:\Users\ethan\Desktop\ECOMMERCE SITE SCHOOl\ECOMMERCE SITE\obj\Debug\netcoreapp3.1\ECOMMERCE SITE.dll
 C:\Users\ethan\Desktop\ECOMMERCE SITE SCHOOl\ECOMMERCE SITE\obj\Debug\netcoreapp3.1\ECOMMERCE SITE.pdb
 C:\Users\ethan\Desktop\ECOMMERCE SITE SCHOOl\ECOMMERCE SITE\obj\Debug\netcoreapp3.1\ECOMMERCE SITE.genruntimeconfig.cache
+C:\Users\ethan\Desktop\ECOMMERCE SITE SCHOOl\ECOMMERCE SITE\bin\Debug\netcoreapp3.1\libman.json
