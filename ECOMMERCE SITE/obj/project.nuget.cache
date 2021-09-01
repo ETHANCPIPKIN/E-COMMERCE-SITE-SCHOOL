@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VClpXMyyDa4eVL05hzG17LoV58Tv8lGl7SLdlt7AXw8ykOs8kjSfh+kp2Yht1WgpFeiiyK07pIZaR0ohvdEgmA==",
+  "dgSpecHash": "RcxD2ke4driXb6K6744QpF0MwZLGE8a66Kcryc2w/d2vnIyutq96VNgz6+CpRfeXbd9RvBDXSWYoU8Js8J5Irw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ethan\\Desktop\\ECOMMERCE SITE SCHOOl\\ECOMMERCE SITE\\ECOMMERCE SITE.csproj",
+  "projectFilePath": "C:\\Users\\ethan\\Desktop\\ECOMMERCE SITE SCHOOl\\Ecommerce site\\ECOMMERCE SITE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ethan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ethan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

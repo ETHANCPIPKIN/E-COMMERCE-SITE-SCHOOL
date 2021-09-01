@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ethan\\Desktop\\ECOMMERCE SITE SCHOOl\\ECOMMERCE SITE\\ECOMMERCE SITE.csproj": {}
+    "C:\\Users\\ethan\\Desktop\\ECOMMERCE SITE SCHOOl\\Ecommerce site\\ECOMMERCE SITE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ethan\\Desktop\\ECOMMERCE SITE SCHOOl\\ECOMMERCE SITE\\ECOMMERCE SITE.csproj": {
+    "C:\\Users\\ethan\\Desktop\\ECOMMERCE SITE SCHOOl\\Ecommerce site\\ECOMMERCE SITE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ethan\\Desktop\\ECOMMERCE SITE SCHOOl\\ECOMMERCE SITE\\ECOMMERCE SITE.csproj",
+        "projectUniqueName": "C:\\Users\\ethan\\Desktop\\ECOMMERCE SITE SCHOOl\\Ecommerce site\\ECOMMERCE SITE.csproj",
         "projectName": "ECOMMERCE SITE",
-        "projectPath": "C:\\Users\\ethan\\Desktop\\ECOMMERCE SITE SCHOOl\\ECOMMERCE SITE\\ECOMMERCE SITE.csproj",
+        "projectPath": "C:\\Users\\ethan\\Desktop\\ECOMMERCE SITE SCHOOl\\Ecommerce site\\ECOMMERCE SITE.csproj",
         "packagesPath": "C:\\Users\\ethan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ethan\\Desktop\\ECOMMERCE SITE SCHOOl\\ECOMMERCE SITE\\obj\\",
+        "outputPath": "C:\\Users\\ethan\\Desktop\\ECOMMERCE SITE SCHOOl\\Ecommerce site\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ethan\\AppData\\Roaming\\NuGet\\NuGet.Config",
