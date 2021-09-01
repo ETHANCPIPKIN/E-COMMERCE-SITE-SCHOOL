@@ -25,5 +25,20 @@ namespace ECOMMERCE_SITE.Controllers
             // send list of products to view to be displayed
             return View(products);
         }
+
+        public IActionResult AddView()
+        {
+            return View();
+        }
+        public async Task<IActionResult> Add([Bind("ProductId,Title,Price,Category")] Product product)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(product);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(product);
+        }
     }
 }

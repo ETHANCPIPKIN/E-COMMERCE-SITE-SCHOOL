@@ -3,10 +3,17 @@
     ViewData["Title"] = "Product Catalog";
 }
 
-<h1>Product Catalog</h1>
+<h1 class="shadow font-weight-bold text-center">Product Catalog</h1>
 
-@foreach(Product p in Model)
-            {
-                <p>@p.Title</p>
-            }
 
+<a asp-action="AddView">Create Product</a>
+<div class="container">
+    @foreach (Product p in Model)
+    {
+    <div class="row">
+        <p class="col">@p.Title</p>
+        <p class="col">@p.Price</p>
+        <p class="col">@p.Category</p>
+    </div>
+    }
+</div>
