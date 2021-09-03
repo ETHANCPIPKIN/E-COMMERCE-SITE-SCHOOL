@@ -40,5 +40,51 @@ namespace ECOMMERCE_SITE.Controllers
             }
             return View(product);
         }
+
+
+        public IActionResult Delete(int id)
+        {
+            Product p = _context
+                .Products
+                .Where(s => s.ProductId == id)
+                .Single();
+
+            return View(p);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        public async Task<IActionResult> DeleteConfirm(int id)
+        {
+            Product p = _context
+               .Products
+               .Where(s => s.ProductId == id)
+               .Single();
+
+            _context.Remove(p);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        public IActionResult Edit(int id)
+        {
+            Product p = _context
+                .Products
+                .Where(s => s.ProductId == id)
+                .Single();
+
+            return View(p);
+        }
+
+        [HttpPost, ActionName("Edit")]
+        public async Task<IActionResult> Edited(Product p)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Update(p);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(p);
+        }
     }
 }

@@ -151,3 +151,5 @@ C:\Users\ethan\Desktop\ECOMMERCE SITE SCHOOl\Ecommerce site\bin\Debug\netcoreapp
 C:\Users\ethan\Desktop\ECOMMERCE SITE SCHOOl\Ecommerce site\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\ethan\Desktop\ECOMMERCE SITE SCHOOl\Ecommerce site\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
 C:\Users\ethan\Desktop\ECOMMERCE SITE SCHOOl\Ecommerce site\obj\Debug\netcoreapp3.1\Razor\Views\Product\AddView.cshtml.g.cs
+C:\Users\ethan\Desktop\ECOMMERCE SITE SCHOOl\Ecommerce site\obj\Debug\netcoreapp3.1\Razor\Views\Product\Delete.cshtml.g.cs
+C:\Users\ethan\Desktop\ECOMMERCE SITE SCHOOl\Ecommerce site\obj\Debug\netcoreapp3.1\Razor\Views\Product\Edit.cshtml.g.cs
