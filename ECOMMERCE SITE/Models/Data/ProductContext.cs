@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ECOMMERCE_SITE.Models;
 
 namespace ECOMMERCE_SITE.Models.Data
 {
@@ -11,5 +12,11 @@ namespace ECOMMERCE_SITE.Models.Data
         public ProductContext(DbContextOptions<ProductContext> options)
             : base(options) {}
         public DbSet<Product> Products { get; set; }
+
+        public DbSet<User> Users { get; set; }
+
+        public DbSet<ECOMMERCE_SITE.Models.RegisterViewModel> RegisterViewModel { get; set; }
+
+        public DbSet<ECOMMERCE_SITE.Models.LoginViewModel> LoginViewModel { get; set; }
     }
 }
