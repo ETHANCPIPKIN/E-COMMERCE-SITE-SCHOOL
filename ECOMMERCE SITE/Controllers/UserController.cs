@@ -21,7 +21,7 @@ namespace ECOMMERCE_SITE.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Register(RegisterViewModel reg)
+        public async Task<IActionResult> Register(RegisterViewModel reg)
         {
             if (ModelState.IsValid)
             {
@@ -30,7 +30,12 @@ namespace ECOMMERCE_SITE.Controllers
                     DateOfBirth = reg.DateOfBirth,
                     Email = reg.Email,
                     Password = reg.Password,
+                    UserName = reg.Username
                 };
+                _context.Users.Add(User);
+                await _context.SaveChangesAsync();
+
+                return RedirectToAction("Index", "Home"); 
             }
 
             return View(reg);
