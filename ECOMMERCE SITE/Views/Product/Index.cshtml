@@ -16,6 +16,8 @@
         <p class="col">@p.Category</p>
         <a class="col" asp-action="Delete" asp-route-id="@p.ProductId">Delete</a>
         <a class="col" asp-action="Edit" asp-route-id="@p.ProductId">Edit</a>
+        <a class="btn btn-primary" 
+           asp-route-id="@p.ProductId">Add to Cart</a>
     </div>
     }
 </div>
