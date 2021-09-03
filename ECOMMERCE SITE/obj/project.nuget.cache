@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XGehcl6sVDIKYaedCtvSG6j5IIOmxsCSUf1vgEOSiNFeiVe5Uuo3Wm+RK3dDjdgNhaeGEG8Qcnogopw0Rw6Y1A==",
+  "dgSpecHash": "NIDrNObqA22WKZrLXl7c+drIJTLOWbJviNG1PslTqBxMsFfJQetGdjD+EwvrG8/wH9RNChYy4PfYxGMXZFfKJw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ethan\\Desktop\\ECOMMERCE SITE SCHOOl\\Ecommerce site\\ECOMMERCE SITE.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\ethan\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\ethan\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
     "C:\\Users\\ethan\\.nuget\\packages\\microsoft.aspnetcore.razor.runtime\\2.2.0\\microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512",
+    "C:\\Users\\ethan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\ethan\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\2.9.4\\microsoft.codeanalysis.analyzers.2.9.4.nupkg.sha512",
     "C:\\Users\\ethan\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.1\\microsoft.codeanalysis.common.3.3.1.nupkg.sha512",
     "C:\\Users\\ethan\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.1\\microsoft.codeanalysis.csharp.3.3.1.nupkg.sha512",
