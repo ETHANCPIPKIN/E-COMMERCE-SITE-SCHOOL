@@ -1,4 +1,4 @@
-﻿@inject HttpContextAccessor sessionData
+﻿@inject IHttpContextAccessor sessionData
 @{ 
     int? userId = sessionData.HttpContext.Session.GetInt32("UserId");
 }
