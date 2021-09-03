@@ -11,5 +11,7 @@ namespace ECOMMERCE_SITE.Models.Data
         public ProductContext(DbContextOptions<ProductContext> options)
             : base(options) {}
         public DbSet<Product> Products { get; set; }
+
+        public DbSet<User> Users { get; set; }
     }
 }
