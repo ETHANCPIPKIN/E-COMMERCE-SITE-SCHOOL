@@ -14,6 +14,8 @@
         <p class="col">@p.Title</p>
         <p class="col">@p.Price</p>
         <p class="col">@p.Category</p>
+        <a class="col" asp-action="Delete" asp-route-id="@p.ProductId">Delete</a>
+        <a class="col" asp-action="Edit" asp-route-id="@p.ProductId">Edit</a>
     </div>
     }
 </div>
