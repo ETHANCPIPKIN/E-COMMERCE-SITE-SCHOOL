@@ -50,4 +50,17 @@ namespace ECOMMERCE_SITE.Models
         [DataType(DataType.Date)]
         public DateTime? DateOfBirth { get; set; }
     }
+
+    public class LoginViewModel
+    {
+        [Key]
+
+        public int id { get; set; }
+        [Required]
+        [Display(Name = "Username or Email")]
+        public string Username { get; set; }
+
+        [Required]
+        public string Password { get; set; }
+    }
 }

@@ -16,5 +16,7 @@ namespace ECOMMERCE_SITE.Models.Data
         public DbSet<User> Users { get; set; }
 
         public DbSet<ECOMMERCE_SITE.Models.RegisterViewModel> RegisterViewModel { get; set; }
+
+        public DbSet<ECOMMERCE_SITE.Models.LoginViewModel> LoginViewModel { get; set; }
     }
 }

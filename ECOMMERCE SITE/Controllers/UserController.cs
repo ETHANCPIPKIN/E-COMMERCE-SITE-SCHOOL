@@ -40,5 +40,10 @@ namespace ECOMMERCE_SITE.Controllers
 
             return View(reg);
         }
+
+        public IActionResult Login()
+        {
+            return View();
+        }
     }
 }
