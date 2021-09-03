@@ -1,5 +1,6 @@
 ﻿using ECOMMERCE_SITE.Models;
 using ECOMMERCE_SITE.Models.Data;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -44,21 +45,28 @@ namespace ECOMMERCE_SITE.Controllers
 
         public IActionResult Login()
         {
+
+            if(HttpContext.Session.GetInt32("UserId").HasValue)
+            {
+                return RedirectToAction("Index", "Home");
+            }
             return View();
         }
         [HttpPost]
 
         public async Task<IActionResult> Login(LoginViewModel model)
         {
-            User user = await
+            User account = await
                 (from u in _context.Users
                  where u.UserName == model.Username
                  && u.Password == model.Password
                  select u).SingleOrDefaultAsync();
-            if(User == null)
+            if(account == null)
             {
                 return View(model);
             }
+
+            HttpContext.Session.SetInt32("UserId", account.UserId);
 
             return RedirectToAction("Index", "Home");
         }

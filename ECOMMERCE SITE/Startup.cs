@@ -37,6 +37,9 @@ namespace ECOMMERCE_SITE
                 options.IdleTimeout = TimeSpan.FromMinutes(30);
                 options.Cookie.IsEssential = true;
             });
+
+            services.AddHttpContextAccessor();
+
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
