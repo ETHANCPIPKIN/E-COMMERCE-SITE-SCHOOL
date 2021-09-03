@@ -155,4 +155,3 @@ C:\Users\ethan\Desktop\ECOMMERCE SITE SCHOOl\Ecommerce site\bin\Debug\netcoreapp
 C:\Users\ethan\Desktop\ECOMMERCE SITE SCHOOl\Ecommerce site\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\ethan\Desktop\ECOMMERCE SITE SCHOOl\Ecommerce site\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\ethan\Desktop\ECOMMERCE SITE SCHOOl\Ecommerce site\obj\Debug\netcoreapp3.1\Razor\Views\User\Register.cshtml.g.cs
-C:\Users\ethan\Desktop\ECOMMERCE SITE SCHOOl\Ecommerce site\obj\Debug\netcoreapp3.1\Razor\Views\User\Login.cshtml.g.cs
